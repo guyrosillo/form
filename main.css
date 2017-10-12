@@ -1,0 +1,72 @@
+.header
+{
+    width: 100%;
+    height: 100%;
+    font-size: 36px;
+    font: black;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding: 0.25em;
+}
+
+/* .header a:link{
+    font-size: 16px;
+    font-style: normal;
+} */
+.header a{
+    position: relative;
+    left: 60%;
+    font-size: 16px;
+    font-weight: normal;
+}
+.sidebar
+{
+    display: block;
+    position: absolute;
+    width: 35%;
+    height: 700px;
+    border-right: 1px solid black;
+}
+
+.sidebar a{
+    color: green;
+}
+.sidebar a:visited{
+    color: green;
+}
+.main
+{
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    /* width: 45%;
+    height: 640px; */
+}
+
+form{
+    margin: auto;
+    position: relative;
+    left: 50%;
+}
+form input{
+    display: block;
+    width: 270 px;
+    border: 2px dotted navy;
+    margin-bottom: 15px;
+}
+
+textarea {
+    border: 3px dotted orange;
+}
+
+.footer
+{
+    display: inline-block;
+    position: absolute;
+    top: 800px;
+    width: 100%;
+    height: auto;
+    padding: 1em 1em 1em 25px;
+    border-top: 1px solid black;
+}

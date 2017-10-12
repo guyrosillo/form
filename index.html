@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+Guillermo Perez
+<a href="index.html">Index</a>
+<a href="myjob.html">My Job</a>
+<a href="aboutme.html">About Me</a>
+
+    </div>
+
+    <div class="sidebar">
+<ul>
+    <li><a href="index.html">Index</a></li>
+    <li><a href="myjob.html">My Job</a></li>
+    <li><a href="aboutme.html">About Me</a></li>
+</ul>
+
+    </div>
+
+    <div class="main">
+        <!-- I need to make the following:
+        Destination email
+        Full name
+        Phone no.
+        Delivery date
+        Time
+        email 
+        subject
+        text area, submit button -->
+
+Please fill out the form below. We respond to all inquiries within 24 hours.
+
+<form action="http://fvi-grad.com:4004/email" method="POST">
+    <input type="text" name="dest_email" placeholder="Destination E-mail" />
+    <input type="text" name="full_name" />
+    <input type="text" name="phone" />
+    <input type="text" name="ddate" />
+    <input type="text" name="time" />
+    <input type="text" name="email" />
+    <input type="text" name="subject" />
+    <textarea name="message" id="" cols="30" rows="10"></textarea>
+    <input type="submit" value="Submit"/>
+</form>
+    </div>
+
+    <div class="footer">
+        E-mail: 
+<a href="mailto:gperez@techlaunch.io">gperez@techlaunch.io</a> Phone: (305) 504-9218
+
+    </div>
+</body>
+</html>
