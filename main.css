@@ -1,4 +1,4 @@
-*
+body
 {
     margin: 0px;
 }
@@ -80,7 +80,7 @@ textarea {
 {
     display: inline-block;
     position: absolute;
-    top: 770px;
+    top: 765px;
     width: 100%;
     height: auto;
     padding: 1em 1em 1em 25px;
