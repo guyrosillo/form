@@ -1,3 +1,8 @@
+*
+{
+    margin: 0px;
+}
+
 .header
 {
     width: 100%;
@@ -39,32 +44,43 @@
     display: inline-block;
     position: absolute;
     top: 150px;
-    left: 400px;
-    /* width: 45%;
-    height: 640px; */
+    left: 500px;
+    font-family: trebuchet ms, arial, sans-serif;
+    font-size: 1.2em;
+    font: rgb(39, 39, 39);
+    height: auto;
+    width: auto;
+    
+}
+
+.main p{
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 form{
     margin: auto;
     position: relative;
-    left: 50%;
+    left: 20%;
 }
 form input{
     display: block;
-    width: 270 px;
+    width: 150px;
     border: 2px dotted navy;
     margin-bottom: 15px;
 }
 
 textarea {
     border: 3px dotted orange;
+    margin-bottom: 8px;
+
 }
 
 .footer
 {
     display: inline-block;
     position: absolute;
-    top: 800px;
+    top: 770px;
     width: 100%;
     height: auto;
     padding: 1em 1em 1em 25px;
